@@ -1,0 +1,27 @@
+{
+  "name": "rate_limitter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usman-nst/Rate_Limitter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/usman-nst/Rate_Limitter/issues"
+  },
+  "homepage": "https://github.com/usman-nst/Rate_Limitter#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "express-rate-limit": "^7.5.0",
+    "ioredis": "^5.6.0",
+    "rate-limit-redis": "^4.2.0"
+  }
+}
